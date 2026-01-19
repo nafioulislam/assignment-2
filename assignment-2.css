@@ -27,7 +27,7 @@ body{
 .nav-h2{
     color: white;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3.75rem;
     margin: 0%;
     
     
@@ -131,8 +131,9 @@ body{
 
 .COMMON-PARAGRAPH-DESIGN{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
+    opacity: .4;
 }
 .section-one-child-div{
     display: flex;
@@ -169,11 +170,59 @@ body{
     font-weight: 600;
     font-size: 18px;
     position: absolute;
-    top: 12px;
-    left: 285px;
+    top: 13px;
+    left: 350px;
     box-shadow: 0px 0px 10px 0px #00ff88c4;
 
 }
+
+
+
+/* section 2  */
+
+
+.section-two{
+    background-color: #1A0B2E;
+    color: white;
+    max-width: 1600px;
+    max-height: 646px;
+}
+
+.section-two-div-one{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+.section-two-div-one-h3{
+    margin: 0%;
+    font-weight:700; 
+    font-size: 48px;
+}
+.section-two-div-two-h3{
+    margin: 0%;
+    color: #00FF88;
+    font-weight:900; 
+    font-size: 48px;
+}
+
+.section-two-second-child-div{
+    text-align: center;
+}
+
+.section-two-child-div{
+    display: flex;
+    justify-content:space-around;
+    padding: 60px;
+
+}
+.section-two-hr{
+    width: 970px;
+    border: none;
+    height: 1.5px;
+    background-color: #8b54d8;
+}
+
 
 
 
