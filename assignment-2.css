@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    max-width: 1600px;
+}
+
+/* full navigation css */
+.nav{
+    background-color: #1A0B2E;
+}
+
+.nav-main-div{
+    display: flex;
+    justify-content:space-around;
+    
+}
+/* navigation   "techwave" */
+
+
+.nav-h2{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0%;
+    
+}
+.text-design-effect{
+    background: linear-gradient(to top right,#FE9A37 0%,#A813B7 80%,#7F22FE 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* navigation li */
+
+
+.ul-div{
+    color: white;
+    font-weight:500;
+    font-size:16px ;
+    
+
+}
+
+.nav-ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+    
+}
+
+
+/* navigation button */
+
+
+.common-button-style{
+
+
+    background: linear-gradient(to top right,#FFDF20 10%,#E12AFB 80%,
+     #615FFF 100%);
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    max-width: 8rem;
+    max-height: 1.7rem;
+    margin-top: .8rem;
+}
+
+.nav-specific-button{
+    max-width: 9rem;
+    padding: .5rem 1rem ;
+    font-size: 1rem;
+    font-weight: 600;
+}
