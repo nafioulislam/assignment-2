@@ -3,6 +3,14 @@ body{
     max-width: 1600px;
 }
 
+
+.boddddy{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
 /* full navigation css */
 .nav{
     background-color: #1A0B2E;
@@ -19,8 +27,9 @@ body{
 .nav-h2{
     color: white;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0%;
+    
     
 }
 .text-design-effect{
@@ -36,7 +45,7 @@ body{
 .ul-div{
     color: white;
     font-weight:500;
-    font-size:16px ;
+    font-size:1rem ;
     
 
 }
@@ -62,15 +71,112 @@ body{
     border: none;
     display: flex;
     align-items: center;
-    border-radius: 50px;
-    max-width: 8rem;
+    border-radius: 3.1rem;
+    gap: .5rem;
+    padding: 1.2rem 1rem ;
     max-height: 1.7rem;
-    margin-top: .8rem;
+
 }
 
 .nav-specific-button{
     max-width: 9rem;
-    padding: .5rem 1rem ;
     font-size: 1rem;
     font-weight: 600;
+    max-width: 8rem;
+    margin-top: .8rem;
 }
+
+
+/* body part  */
+
+
+.section-one{
+    
+    display: flex;
+    justify-content: center;
+    background-image:url("B13-A02-TechWave/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    background-position: center ;
+    padding-top: 101px;
+    padding-bottom: 101px;
+    max-width: 1600px;
+    max-height: 760px;
+    
+    
+}
+
+.section-one-div{
+    max-width: 550px;
+    max-height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    
+}
+.section-one-div-fixed-image{
+    max-width: 350px;
+    max-height: 350px;
+}
+.section-one-div-nonfixed-image{
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    top: 77.33px;
+
+}
+
+.COMMON-PARAGRAPH-DESIGN{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+.section-one-child-div{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.section-one-child-div-uncommon-button{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    max-width: 147px;
+    max-height: 44px;  
+    background: none;
+    color: #00FF88;
+    border: #00FF88 solid 1.5px;
+    border-radius: 50px;
+    
+
+}
+
+
+.challenge-button{
+    background-color: #00FF88;
+    border: none;
+    border-radius: 50px;
+    width: 75px;
+    height: 38px;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    top: 12px;
+    left: 285px;
+    box-shadow: 0px 0px 10px 0px #00ff88c4;
+
+}
+
+
+
+
+
+
