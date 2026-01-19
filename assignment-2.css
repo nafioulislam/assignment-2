@@ -314,9 +314,8 @@ body{
 
 .section-four{
     background-color: #1A0B2E;
+
 }
-
-
 .section-four-h3{
     margin: 0%;
     color: white;
@@ -325,6 +324,40 @@ body{
     text-align: center;
     padding-top: 120px;
     padding-bottom: 40px;
+}
+
+.section-four-div-one{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+.section-four-div-one-child{
+    background-color: #37156354;
+    max-width: 380px;
+    text-align: left;
+    border-radius: 40px;
+    
+}
+.section-four-div-one-child-child{
+    padding: 0px 24px 24px 24px;   
+}
+.section-four-div-one-h4{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.section-four-div-one-p-two{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #00FF88;
+}
+
+.section-four-div-one-child iframe {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border: none;
 }
 
 
