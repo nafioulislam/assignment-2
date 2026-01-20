@@ -314,6 +314,8 @@ body{
 
 .section-four{
     background-color: #1A0B2E;
+    color: white;
+    max-width: auto;
 
 }
 .section-four-h3{
@@ -328,9 +330,12 @@ body{
 
 .section-four-div-one{
     color: white;
+    max-width: 1850px;
     display: flex;
+    
     justify-content: space-around;
     padding-bottom: 120px;
+    margin: 0 auto;
 }
 .section-four-div-one-child{
     background-color: #37156354;
@@ -359,6 +364,51 @@ body{
     border-top-right-radius: 40px;
     border: none;
 }
+
+
+/* section four part 2 */
+
+
+.section-four-div-one-two-middle-h3{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0%;
+    text-align: center;
+    
+}
+
+.section-four-div-two-child-h4{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.section-four-div-two-child-child-img{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #C81CDE;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+.section-four-div-two-child-child{
+    display: flex;
+    gap: 8px;
+    
+    
+}
+
+.section-four-div-two{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 24px;
+    
+    max-width: 1650px;
+}
+
+
+
 
 
 
