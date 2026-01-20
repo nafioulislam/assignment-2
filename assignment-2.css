@@ -17,8 +17,12 @@ body{
 }
 
 .nav-main-div{
+    max-width: 1850px;
+    margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content:space-around;
+    
     
 }
 /* navigation   "techwave" */
@@ -27,7 +31,7 @@ body{
 .nav-h2{
     color: white;
     font-weight: bold;
-    font-size: 3.75rem;
+    font-size: 3.7rem;
     margin: 0%;
     
     
@@ -54,6 +58,7 @@ body{
     display: flex;
     gap: 2rem;
     list-style: none;
+    align-items: center;
     
     
 }
@@ -409,7 +414,7 @@ body{
     max-width: 1650px;
     padding: 30px 53px 53px 53px;
     border-radius: 40px;
-    /* padding-bottom: 48px; */
+    r
 }
 
 
