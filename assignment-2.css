@@ -316,6 +316,7 @@ body{
     background-color: #1A0B2E;
     color: white;
     max-width: auto;
+    padding-bottom: 120px;
 
 }
 .section-four-h3{
@@ -329,10 +330,10 @@ body{
 }
 
 .section-four-div-one{
+    
     color: white;
     max-width: 1850px;
     display: flex;
-    
     justify-content: space-around;
     padding-bottom: 120px;
     margin: 0 auto;
@@ -399,13 +400,60 @@ body{
 }
 
 .section-four-div-two{
+    margin: 0 auto;
+    background-color:rgba(117, 50, 205, 0.171) ;
     display: flex;
     margin: 0 auto;
     align-items: center;
     gap: 24px;
-    
     max-width: 1650px;
+    padding: 30px 53px 53px 53px;
+    border-radius: 40px;
+    /* padding-bottom: 48px; */
 }
+
+
+
+/* ........................................................footer........................................................... */
+
+
+
+.footer{
+    background-image: url("B13-A02-TechWave/assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    background-position: center ;
+    max-width: auto;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 120px 0px;
+ }
+
+ .nav-h2{
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0%;
+ }
+
+
+ .footer-div-one-child-img{
+    height: 24px;
+    width: 24px;
+ }
+
+ .footer-div-one-child{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+ }
+ 
+ .footer-div-one{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+ }
 
 
 
