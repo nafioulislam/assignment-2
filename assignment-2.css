@@ -3,6 +3,9 @@ body{
     max-width: auto;
 }
 
+.hamburger-nav{
+    display: none;
+}
 
 .boddddy{
   font-family: "Inter", sans-serif;
@@ -61,6 +64,9 @@ body{
     align-items: center;
     
     
+}
+.hamburger-nav{
+    display: none;
 }
 
 
@@ -205,6 +211,9 @@ body{
     font-weight:700; 
     font-size: 48px;
 }
+ .section-two-div-one-p-coppy{
+    display: none;
+ }
 .section-two-div-two-h3{
     margin: 0%;
     color: #00FF88;
@@ -406,6 +415,11 @@ body{
     
 }
 
+.section-four-div-two-img{
+    width: 200px;
+    height: 200px;
+}
+
 .section-four-div-two{
     margin: 0 auto;
     background-color:rgba(117, 50, 205, 0.171) ;
@@ -416,7 +430,6 @@ body{
     max-width: 1650px;
     padding: 30px 53px 53px 53px;
     border-radius: 40px;
-    r
 }
 
 
@@ -425,8 +438,13 @@ body{
 
 
 
-.footer{
-    background-image: url("B13-A02-TechWave/assets/footer-bg.png");
+ .footer-mobile{
+    display: none;
+ }
+
+ .footer{
+    display: block;
+    background-image: url('B13-A02-TechWave/assets/footer-bg.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-size: cover;
@@ -468,19 +486,5 @@ body{
 
 
 
-
-/* .............................................................................responsive........................................................................, */
-
-
-
-@media screen and (max-width:576px) {
-
-
-
-
-
-
-    
-}
 
 
