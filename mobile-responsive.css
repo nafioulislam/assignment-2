@@ -73,6 +73,31 @@
     
 }
 
+.section-one-div-nonfixed-image{
+    max-width: 200px;
+    max-height: 200px;
+    position: absolute;
+    top: 77.33px;
+    
+}
+
+.challenge-button{
+    background-color: #00FF88;
+    border: none;
+    border-radius: 50px;
+    width: 75px;
+    height: 38px;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    top: 13px;
+    left: 300px;
+    box-shadow: 0px 0px 10px 0px #00ff88c4;
+
+}
+
 .section-two-hr{
     width: 400px;
     border: none;
